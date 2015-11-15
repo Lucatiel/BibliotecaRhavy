@@ -1,0 +1,54 @@
+<html lang="pt-br">
+  <head>
+    <title>Biblioteca</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+	 <font size="8">
+				<center><i> Bem vindo(a) a Biblioteca!<i/></center>
+				<br><br/>
+			</font>
+			<font size="6">
+				<center><b>Faça seu cadastro. </b></center>
+				<br><br/>
+			</font>
+			
+			<font size="5">	 	
+     <form action="InserirV.do" method = "post">
+            Titulo:
+				<input type="text" size="20" id="titulo" name="titulo" />
+				<br>
+			Autor:
+				<input type="text" size="20" id="autor" name="autor" />
+				</br>
+			Descrição:
+				<br>
+				<textarea name="descricao" rows="10" cols="40" maxlength="500"></textarea>
+				</br>
+				<br>
+			Tipos de volume:
+					<select Volume = "Tipos de volume:">
+						<option>Selecione
+						<option>Livros
+						<option>Periódicos
+						<option>Fotografias
+						<option>Áudios
+					</select>
+				</br>
+			    <br>
+			Numero de paginas:
+				<input type="integer"" size="20" id="numPaginas" name="numPaginas" />
+				</br>	
+				<br>
+			Ano de publicação:
+				<input type="integer" size="20" id="ano" name="ano" />
+				</br>
+				<br></br>
+			Editora:
+				<input type="text" size="20" id="editora" name="editora" />
+				<input type="submit" style="width:90;height:25" value="Enviar">  	
+	 </form>	
+			</font>
+	
+  </body>
+</html>
